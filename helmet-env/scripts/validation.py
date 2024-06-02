@@ -25,10 +25,10 @@ def create_val_split(train_images_dir, train_labels_dir, val_images_dir, val_lab
         shutil.move(os.path.join(train_labels_dir, label), os.path.join(val_labels_dir, label))
 
 # Klasör yolları
-train_images_dir = '/Users/efenalbant1/helmet_detection/dataset/images/train'
-train_labels_dir = '/Users/efenalbant1/helmet_detection/dataset/labels/train'
-val_images_dir = '/Users/efenalbant1/helmet_detection/dataset/images/val'
-val_labels_dir = '/Users/efenalbant1/helmet_detection/dataset/labels/val'
+train_images_dir = 'dataset\labels\train'
+train_labels_dir = 'dataset\labels\train'
+val_images_dir = 'dataset\labels\val'
+val_labels_dir = 'dataset\labels\val'
 
 # Doğrulama veri setini oluştur
 create_val_split(train_images_dir, train_labels_dir, val_images_dir, val_labels_dir)

@@ -1,5 +1,6 @@
-train: /Users/efenalbant1/helmet_detection/dataset/images/train
-val: /Users/efenalbant1/helmet_detection/dataset/images/val
+train: ./dataset/images/train
+val: ./dataset/images/val
+
 
 nc: 2
 names: ['helmet', 'no_helmet']
